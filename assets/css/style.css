@@ -1,0 +1,70 @@
+body {
+	background-color: rgb(245,245,245); 
+}
+
+.navbar { 
+	opacity: 0.8; 
+}
+
+.container .row:first-of-type { 
+	padding-top: 25vh;
+}
+
+
+@media screen and (max-width: 900px) { 
+
+	.container .row:first-of-type { 
+	padding-top: 75px;
+	}
+
+}
+
+.bg-dark { 
+	background-color: rgb(200,200,200); !important; 
+}
+
+.jumbotron { 
+	background-image: url(../img/sf.jpg);
+	background-size: cover; 
+	background-attachment: fixed; 
+	background-position: center bottom; 
+	border-radius: 0px; 
+	color: white;
+	text-align: center; 
+	height: 100vh;
+	display: flex;
+	flex-align: center; 
+	justify-content: center; 
+}
+
+.jumbotron div.container { 
+	padding: 50px;	
+	background-color: rgba(125,125,125,0.5);
+	border-radius: 1px;
+	margin: auto;  
+	text-shadow: white 0px 0px 7px;
+}
+
+.btn { 
+	background-color: rgba(160,160,160,0.5);
+	border: rgba(255,255,255,0.9);
+}
+
+.btn:hover { 
+	background-color: rgba(160,160,160,0.9);
+	border: rgba(255,255,255,0.9);
+}
+
+a.btn-primary:focus { 
+	box-shadow: 0 0 10px rgba(255,255,255,0.5); 
+}
+
+a.btn-primary:active { 
+	box-shadow: 0 0 10px rgba(255,255,255,0.5); 
+}
+
+div#skills { 
+	height:100vh;
+}
+
+
