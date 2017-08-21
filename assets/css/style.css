@@ -11,10 +11,10 @@ body {
 }
 
 
-@media screen and (max-width: 900px) { 
+@media screen and (max-width: 800px) { 
 
 	.container .row:first-of-type { 
-	padding-top: 75px;
+		padding-top: 75px;
 	}
 
 }
@@ -64,7 +64,7 @@ a.btn-primary:active {
 }
 
 div#skills { 
-	height:100vh;
+	height:95vh;
 }
 
 
